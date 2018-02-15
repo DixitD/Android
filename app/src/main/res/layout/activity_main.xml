@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/images2"
+    tools:context=".MainActivity" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:background="#F9FBE7"
+    android:paddingRight="16dp">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:text="Russian Ruble :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:text="Indian Rupee :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit1"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header1"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:text="US Dollar :"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+            />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+        <ImageButton
+            android:id="@+id/btnSubmit2"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header2"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:text="Malaysian Ringgit :"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit3"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:src="@drawable/convertc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header3"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:text="Bahraini Dinar:"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit4"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header4"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:text="Hungarian Forint :"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit5"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header5"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:text="Japanese Yen :"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit6"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header6"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:text="Swiss Franc :"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:inputType="numberDecimal"
+            tools:layout_width="match_parent" />
+
+
+        <ImageButton
+            android:id="@+id/btnSubmit7"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:clickable="true"
+            android:background="#F9FBE7"
+            android:minHeight="25dp"
+            android:minWidth="25dp"
+            android:src="@drawable/convertc" />ss
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
